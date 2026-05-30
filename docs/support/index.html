@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NextLine Transit Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7f4;
+      --panel: #ffffff;
+      --text: #162018;
+      --muted: #5c6a5e;
+      --accent: #1d6b3d;
+      --border: #d9e2d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #eef5ef 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 72px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 18px 45px rgba(18, 35, 21, 0.08);
+    }
+    a { color: var(--accent); }
+    .back {
+      display: inline-block;
+      margin-bottom: 18px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    h1, h2 {
+      color: var(--text);
+      line-height: 1.15;
+    }
+    h1 { margin: 0 0 12px; font-size: 2.1rem; }
+    h2 { margin: 28px 0 10px; font-size: 1.15rem; }
+    p, li {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+    .note {
+      margin-top: 22px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: #f8fbf8;
+      border: 1px solid var(--border);
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <a class="back" href="../">Back</a>
+      <h1>NextLine Transit Support</h1>
+      <p>NextLine Transit helps you browse transit stops, routes, and live arrival times.</p>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:tipped-wish-chevy@duck.com">tipped-wish-chevy@duck.com</a></p>
+
+      <h2>Common Issues</h2>
+      <ul>
+        <li>If nearby stops are not showing, make sure Location Access is enabled for NextLine Transit in iPhone Settings &gt; Privacy &amp; Security &gt; Location Services.</li>
+        <li>If favorites are missing from the app, widget, or Apple Watch, open the iPhone app once and allow it to finish loading and syncing.</li>
+        <li>If Apple Watch data looks outdated, make sure the iPhone app has been opened recently and watch connectivity is available.</li>
+        <li>If arrival times or route data look incorrect, include the stop, route, and approximate time when reporting the issue.</li>
+      </ul>
+
+      <h2>Transit Data</h2>
+      <p>Transit information depends on upstream transit data sources. Delays, schedule changes, or incomplete data may affect what appears in the app.</p>
+
+      <h2>Privacy</h2>
+      <p>Privacy Policy: <a href="../privacy/">NextLine Transit Privacy Policy</a></p>
+    </section>
+  </main>
+</body>
+</html>
